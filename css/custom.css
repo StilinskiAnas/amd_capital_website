@@ -2453,8 +2453,17 @@ header.main-header .header-sticky.active{
 }
 
 .testimonial-company-slider .company-logo img{
-	width: 100%;
-	max-height: 40px;
+    height: 100%;
+    max-height: 60px;
+    object-fit: contain;
+}
+
+.testimonial-company-slider .company-logo.logo-large img {
+    max-height: 80px;
+}
+
+.testimonial-company-slider .company-logo.logo-xlarge img {
+    max-height: 100px;
 }
 
 /************************************/
